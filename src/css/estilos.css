@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-font: "Work Sans";
+  --font-color: #2D2D2D;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+/* Home Mobile */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5em;
+}
+
+.header > nav > menu {
+  list-style: none;
+}
+.header > nav > menu > li {
+  margin: 0.5em 0;
+}
+.header > nav > menu > li  a {
+  font: bold 16px / 148% var(--primary-font);
+  color:var(--font-color);
+  text-decoration: none;
+}
+.title {
+  font: bold 48px / 120% var(--primary-font);
+  color:var(--font-color);
+  margin-bottom: 0em;
+}
+main {
+  padding: 0 1.5em;
+}
+.about > h2 {
+  font: 500 20px / 148% var(--primary-font);
+  color:var(--font-color);
+  margin: 0.25em 0;
+}
+footer > p {
+  margin-top: 2em;
+  text-align: center;
+}
+button {
+  font: 500 16px / 148% var(--primary-font);
+  color: #fff;
+  padding: 0.5em 1.5em;
+  background-color: #325B99;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+}
+
+/* Home Desktop */
+@media (min-width: 1200px) {
+  .header,
+  main {
+    max-width: 1114px;
+    margin: 0 auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+  } 
+  .logo {
+    width: 30%;
+  }
+  .header > nav {
+    width: 70%;
+  }
+  .header > nav > menu  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 96px;
+  }
+  .about > h2 {
+    font-size: 48px;
+  }
+  .about p {
+    font-size: 24px;
+  }
+  button {
+    font-size: 18px;
+  }
+}
