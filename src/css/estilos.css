@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-font: "Work Sans";
+  --font-color: #2D2D2D;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+.header > nav > menu {
+  list-style: none;
+}
+
+.header > nav > menu > li {
+  margin: 0.5em 0;
+}
+.header > nav > menu > li  a {
+  font: bold 1em / 148% var(--primary-font);
+  color:var(--font-color);
+}
+.title {
+  font: bold 3em / 120% var(--primary-font);
+  color:var(--font-color);
+}
