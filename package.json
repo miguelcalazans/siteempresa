@@ -1,0 +1,19 @@
+{
+  "name": "siteempresa",
+  "version": "1.0.0",
+  "description": "Site empresa Tauros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelcalazans/siteempresa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelcalazans/siteempresa/issues"
+  },
+  "homepage": "https://github.com/miguelcalazans/siteempresa#readme"
+}
