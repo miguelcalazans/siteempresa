@@ -135,7 +135,11 @@ img {
   .logo {
     width: 30%;
   }
+  .menu-hambuguer {
+    display: none;
+  }
   .header > nav {
+    display: block;
     width: 70%;
   }
   .header > nav > menu  {
