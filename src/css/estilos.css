@@ -96,16 +96,17 @@ button {
   text-decoration: none;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
+
 /* Inicio Página de Equipe*/
 .team-tauros .card {
   margin-top: 3em;
 }
 .team-tauros .card figure {
   margin: 0 auto;
+}
+.team-tauros .card figure > img {
+  width: 300px;
+  height: 300px;
 }
 .team-tauros .card img {
   border-radius: 100%;
@@ -119,6 +120,12 @@ img {
   color: var(--font-color);
 }
 
+@media (max-width: 640px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
 /* Home Desktop */
 @media (min-width: 1200px) {
   .header,
@@ -158,11 +165,6 @@ img {
   button {
     font-size: 18px;
   }
-  img {
-    width: auto;
-    height: auto;
-  }
-
   /* Inicio Página de Equipe*/
   .team-tauros {
     display: flex;
