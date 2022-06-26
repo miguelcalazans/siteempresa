@@ -171,5 +171,41 @@ button {
     justify-content: space-between;
     grid-gap: 4em;
   }
+  /* Inicio Página de Serviços*/
+	.grid {
+  display: grid;
+}
+.grid-template-columns {
+	grid-template-columns: 200px 200px;
+}
+  .item {
+      margin: 5px;
+      text-align: center;
+      font-size: 24px;
+      display: block;
+      justify-content: space-between;
+      grid-gap: 1.5em;
+    }
+    .colunas {
+      columns: 2 200px;
+      column-rule-width: 4px;
+      column-rule-style: solid;
+    }
+    h3{
+      font-size: 24px;
+      text-align: left;
+      column-span: all;
+    }
+    p > li{
+      font-family: var(--primary-font);
+      font-weight: 400;
+      text-align: center;
+      line-height: 30px;
+      word-spacing: 5px;
+    }
+    /* Inicio Página Sobre*/
+
+    /* Inicio Página Novidade*/
+    .subtitle
 
 }
